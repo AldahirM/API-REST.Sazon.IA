@@ -11,7 +11,7 @@
 	<groupId>com.proyecto</groupId>
 	<artifactId>SazonIA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>SazonIA</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -88,7 +88,7 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.7.4</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
