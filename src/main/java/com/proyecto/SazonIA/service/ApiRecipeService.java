@@ -10,7 +10,7 @@ import com.proyecto.SazonIA.spoonacularApi.ApiRecipe;
 @Service
 public class ApiRecipeService {
     
-    private final String apiKey = "8cf7724c75134bd284a067d001bac706";
+    private final String apiKey = "5b3eb67cc5e9421598915e304ee39abc";
     private final String apiUrl = "https://api.spoonacular.com/recipes/random";
 
     

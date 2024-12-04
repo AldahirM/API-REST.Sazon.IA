@@ -142,7 +142,7 @@ public class CommentRecipeController {
                         @PathVariable Integer idRecipe,
                         @RequestParam(value = "page", required = false, defaultValue = "0") Integer page,
                         @RequestParam(value = "pageSize", required = false, defaultValue = "10") Integer pageSize) {
-                if (userService.getById(idRecipe) == null) {
+                if (recipeService.getById(idRecipe) == null) {
                         return new ResponseEntity<>(gson.toJson(Map.of("error", "Recipe not found")), HttpStatus.NOT_FOUND);
                 }
                 page = page * pageSize;
