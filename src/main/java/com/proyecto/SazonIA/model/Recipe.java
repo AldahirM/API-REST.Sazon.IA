@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 @Entity
-@Table(name = "Recipe")
+@Table(name = "recipe")
 @JsonIgnoreProperties({ "user", "comments", "recipe_time_stamp" })
 public class Recipe {
 

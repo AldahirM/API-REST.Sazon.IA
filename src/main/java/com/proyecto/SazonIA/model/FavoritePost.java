@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
-@Table(name = "FavoritePost")
+@Table(name = "favoritepost")
 public class FavoritePost {
 
     @EmbeddedId
