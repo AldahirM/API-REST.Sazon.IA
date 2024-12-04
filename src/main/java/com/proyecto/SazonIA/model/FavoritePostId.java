@@ -8,13 +8,11 @@ import jakarta.validation.constraints.Positive;
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 
 @Embeddable
 public class FavoritePostId implements Serializable {
 
-    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     @NotNull(message = "User ID must not be null")
     @Positive(message = "User ID must be a positive number")
     @Column(name = "user_id", nullable = false)
